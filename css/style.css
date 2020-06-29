@@ -1,0 +1,144 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+/*Heading Section */
+
+h3{
+	font-size: 250%;
+	text-align: center;
+	color: #e5e4d7;
+	font-family: "Century Gothic", "Gill Sans", Arial;
+	margin: 0px;
+
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+#header{
+	background-color: #333333;
+	margin: 10px;
+	height: 90px;
+	border-radius: 5px;
+}
+
+#heading{
+	background-color: #333333;
+	border-radius: 5px;
+	margin: 10px;
+	color: #fff;
+}
+
+#navbar ul{
+	padding: 5px;
+	list-style-type: none;
+	text-align: center;
+	background-color: #e5e4d7;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+#navbar ul li{
+	display: inline;
+}
+
+#navbar ul li a{
+	text-decoration: none;
+	font-family: Arial;
+	padding: .2em 1em;
+	color: #000;
+	background-color: #ccc;
+	border-radius: 5px;
+}
+
+#navbar ul li a:hover{
+	color: #fff;
+	background-color: #000;
+}
+
+.main{
+	background-color: #e5e4d7;
+	margin-left: 300px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 110%;
+}
+
+.sidebar{
+	background-color: #e5e4d7;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 105%;
+	float: left;
+	width: 260px;
+}
+
+form{
+	background: #fff;
+}
+
+.product{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.product-card{
+	flex: 1 16%;
+	padding: 2%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	max-width: 300px;
+	margin: 10px;
+	text-align: center;
+	font-family: arial;
+	background-color: #ccc;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #000;
+}
+
+.cart_div {
+	float:right;
+	font-weight:bold;
+	position:relative;
+	margin-right: 10px;
+	}
+.cart_div a {
+	color:#000;
+	text-decoration: none;
+	}	
+.cart_div span {
+	font-size: 12px;
+    line-height: 7px;
+    background: #000;
+    padding: 4px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -2px;
+    left: 13px;
+    color: #fff;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+	}
